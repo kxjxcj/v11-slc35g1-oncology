@@ -1,0 +1,8 @@
+HM,claim,sensitivity
+HM-52,D5 Jaccard 0.00,"HuRI vs STRING-physical 0.00; 3 platforms use different methods, NOT data error"
+HM-53,D7 AUC=1.0,synthetic embeddings; 100% data is in-silico (HM-35)
+HM-54,D8 VKO stromal 0.51,"near-random for stromal lineage; epithelial 0.83, immune 0.72"
+HM-54,D8 18/27 monomer proxy,9/27 have full Multimer PDB; 18/27 use monomer pLDDT
+HM-54,STAT1 Chronos -0.32 borderline,STAT1 essentiality borderline; sensitivity: drop STAT1 → 4 essential genes
+HM-55,"n<30 threshold (COAD n=22, READ n=19)",CATE estimates underpowered for these 2 cancers; sensitivity: drop them → n=641
+HM-51,D9 binary/continuous CATE,"GEO ST6GAL1 binary -0.452 vs continuous +212.86 days; outcome-model nonlinearity, NOT biological contradiction"

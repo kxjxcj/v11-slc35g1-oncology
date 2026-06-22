@@ -1,0 +1,20 @@
+{
+  "n_subjects_with_cf": 2014,
+  "per_cohort_summary": {
+    "CPTAC-COAD": {
+      "n_subjects": 94,
+      "mean_delta_OS_days_SLC35G1_KO": 302.39646212024195,
+      "median_delta_OS_days_SLC35G1_KO": 195.20322741287015,
+      "std_delta_OS_days_SLC35G1_KO": 747.8906578648498,
+      "mean_cate_per_subject": -96.00062713522904
+    },
+    "GEO-GSE39582": {
+      "n_subjects": 578,
+      "mean_delta_OS_days_SLC35G1_KO": 124.66625677833942,
+      "median_delta_OS_days_SLC35G1_KO": -248.57655392219334,
+      "std_delta_OS_days_SLC35G1_KO": 2814.9444345277884,
+      "mean_cate_per_subject": -42.56596849178394
+    }
+  },
+  "honesty_marker": "HM-35: counterfactuals derived from observational data. Causal interpretation requires untestable assumptions (no unobserved confounders, positivity, consistency)."
+}

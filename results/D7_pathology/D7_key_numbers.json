@@ -1,0 +1,21 @@
+{
+  "total_simulated_patients": 1176,
+  "n_cohorts": 6,
+  "slc35g1_high_prevalence": 0.231,
+  "dual_high_prevalence": 0.077,
+  "best_5fold_auc": 1.0,
+  "best_5fold_auc_config": {
+    "fusion": "LateFusion-MLP",
+    "modality": "H&E"
+  },
+  "best_external_test_auc": 1.0,
+  "best_external_test_config": {
+    "fusion": "LateFusion-MLP",
+    "modality": "H&E"
+  },
+  "full_cohort_5y_os_c_index": 0.609,
+  "best_stratum_5y_os_c_index": 0.649,
+  "best_stratum": "Double-Hi",
+  "median_os_double_hi": 1825.0,
+  "median_os_double_lo": 1825.0
+}

@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Palbociclib",
+    "category": "CDK4/6",
+    "fda_approved": "True",
+    "indication": "HR+/HER2- breast cancer",
+    "smiles_len": 62,
+    "profile": {
+      "mw": 510.56,
+      "logp": 2.835,
+      "hbd": 2,
+      "hba": 8,
+      "tpsa": 125.35,
+      "rotb": 6,
+      "rings": 5,
+      "heavy_atoms": 38,
+      "mmff_converged_confs": 0,
+      "lipinski_pass": false
+    }
+  },
+  {
+    "name": "Ribociclib",
+    "category": "CDK4/6",
+    "fda_approved": "True",
+    "indication": "HR+/HER2- breast cancer",
+    "smiles_len": 75,
+    "profile": null
+  },
+  {
+    "name": "Abemaciclib",
+    "category": "CDK4/6",
+    "fda_approved": "True",
+    "indication": "HR+/HER2- breast cancer",
+    "smiles_len": 65,
+    "profile": {
+      "mw": 536.68,
+      "logp": 4.08,
+      "hbd": 2,
+      "hba": 8,
+      "tpsa": 103.51,
+      "rotb": 6,
+      "rings": 7,
+      "heavy_atoms": 40,
+      "mmff_converged_confs": 0,
+      "lipinski_pass": false
+    }
+  },
+  {
+    "name": "P-3Fax-Neu5Ac",
+    "category": "Sialylation",
+    "fda_approved": "False",
+    "indication": "Sialyltransferase inhibitor (research)",
+    "smiles_len": 31,
+    "profile": {
+      "mw": 259.18,
+      "logp": -0.355,
+      "hbd": 3,
+      "hba": 5,
+      "tpsa": 109.85,
+      "rotb": 6,
+      "rings": 0,
+      "heavy_atoms": 17,
+      "mmff_converged_confs": 4,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "3F-Neu5Ac (peracetylated)",
+    "category": "Sialylation",
+    "fda_approved": "False",
+    "indication": "Sialyltransferase inhibitor (research)",
+    "smiles_len": 91,
+    "profile": {
+      "mw": 445.34,
+      "logp": -1.875,
+      "hbd": 4,
+      "hba": 10,
+      "tpsa": 160.85,
+      "rotb": 5,
+      "rings": 2,
+      "heavy_atoms": 30,
+      "mmff_converged_confs": 0,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "SO-NP-DMT (SLC35A1 inhibitor)",
+    "category": "Sialylation",
+    "fda_approved": "False",
+    "indication": "CMP-sialic acid transporter inhibitor (research)",
+    "smiles_len": 29,
+    "profile": {
+      "mw": 226.3,
+      "logp": 2.646,
+      "hbd": 2,
+      "hba": 4,
+      "tpsa": 49.84,
+      "rotb": 3,
+      "rings": 1,
+      "heavy_atoms": 16,
+      "mmff_converged_confs": 5,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "Lithocholic acid (ST6GAL1 inhibitor probe)",
+    "category": "Sialylation",
+    "fda_approved": "False",
+    "indication": "Bile acid, weak ST6GAL1 inhibitor (research)",
+    "smiles_len": 75,
+    "profile": {
+      "mw": 376.58,
+      "logp": 5.507,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 57.53,
+      "rotb": 4,
+      "rings": 4,
+      "heavy_atoms": 27,
+      "mmff_converged_confs": 0,
+      "lipinski_pass": false
+    }
+  },
+  {
+    "name": "Fluorinated sialic acid mimetic",
+    "category": "Sialylation",
+    "fda_approved": "False",
+    "indication": "Sialic acid analog inhibitor",
+    "smiles_len": 30,
+    "profile": {
+      "mw": 237.18,
+      "logp": -2.415,
+      "hbd": 5,
+      "hba": 5,
+      "tpsa": 127.09,
+      "rotb": 1,
+      "rings": 1,
+      "heavy_atoms": 16,
+      "mmff_converged_confs": 5,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "Pembrolizumab",
+    "category": "ICB",
+    "fda_approved": "True",
+    "indication": "MSI-H CRC, multiple cancers",
+    "smiles_len": 0,
+    "profile": null
+  },
+  {
+    "name": "Nivolumab",
+    "category": "ICB",
+    "fda_approved": "True",
+    "indication": "Multiple cancers",
+    "smiles_len": 0,
+    "profile": null
+  },
+  {
+    "name": "Atezolizumab",
+    "category": "ICB",
+    "fda_approved": "True",
+    "indication": "Multiple cancers",
+    "smiles_len": 0,
+    "profile": null
+  },
+  {
+    "name": "Fluorouracil",
+    "category": "Chemo",
+    "fda_approved": "True",
+    "indication": "CRC 1L",
+    "smiles_len": 16,
+    "profile": {
+      "mw": 130.08,
+      "logp": -0.798,
+      "hbd": 2,
+      "hba": 2,
+      "tpsa": 65.72,
+      "rotb": 0,
+      "rings": 1,
+      "heavy_atoms": 9,
+      "mmff_converged_confs": 5,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "Capecitabine",
+    "category": "Chemo",
+    "fda_approved": "True",
+    "indication": "CRC 1L (oral 5-FU prodrug)",
+    "smiles_len": 67,
+    "profile": {
+      "mw": 473.41,
+      "logp": 1.207,
+      "hbd": 2,
+      "hba": 9,
+      "tpsa": 149.61,
+      "rotb": 8,
+      "rings": 2,
+      "heavy_atoms": 33,
+      "mmff_converged_confs": 0,
+      "lipinski_pass": true
+    }
+  },
+  {
+    "name": "Oxaliplatin",
+    "category": "Chemo",
+    "fda_approved": "True",
+    "indication": "CRC 1L (mFOLFOX6)",
+    "smiles_len": 25,
+    "profile": null
+  },
+  {
+    "name": "Irinotecan",
+    "category": "Chemo",
+    "fda_approved": "True",
+    "indication": "CRC 1L (FOLFIRI)",
+    "smiles_len": 68,
+    "profile": null
+  },
+  {
+    "name": "Bevacizumab",
+    "category": "Anti-VEGF",
+    "fda_approved": "True",
+    "indication": "mCRC",
+    "smiles_len": 0,
+    "profile": null
+  },
+  {
+    "name": "Cetuximab",
+    "category": "Anti-EGFR",
+    "fda_approved": "True",
+    "indication": "KRAS-WT mCRC",
+    "smiles_len": 0,
+    "profile": null
+  }
+]

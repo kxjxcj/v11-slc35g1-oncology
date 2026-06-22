@@ -1,0 +1,5 @@
+mutant,iptm_alphafold_multimer,delta_g_bind_kcal_mol,delta_g_relative_to_wt,string_complex_proxy_score,moderately_confident,hm19_note
+WT,0.72,-148.5,0.0,0.0,yes,"in-silico KO, 0 wet validation"
+K55A,0.51,-130.2,18.3,0.0,yes,"in-silico KO, 0 wet validation"
+R133A,0.48,-123.8,24.7,0.0,no,"in-silico KO, 0 wet validation"
+D236A,0.42,-117.3,31.2,0.0,no,"in-silico KO, 0 wet validation"

@@ -1,0 +1,18 @@
+name,category,fda_approved,n_valid_pairs,avg_score,best_target,best_score
+Palbociclib,CDK4/6,True,15,-3.6564,S100A2,-4.5163
+Ribociclib,CDK4/6,True,0,,,
+Abemaciclib,CDK4/6,True,15,-3.7769,S100A2,-4.681
+P-3Fax-Neu5Ac,Sialylation,False,15,-2.3204,S100A2,-2.7061
+3F-Neu5Ac (peracetylated),Sialylation,False,15,-4.1584,S100A2,-4.839
+SO-NP-DMT (SLC35A1 inhibitor),Sialylation,False,15,-1.9475,S100A2,-2.3097
+Lithocholic acid (ST6GAL1 inhibitor probe),Sialylation,False,15,-2.1309,S100A2,-2.7403
+Fluorinated sialic acid mimetic,Sialylation,False,15,-2.9918,S100A2,-3.3548
+Pembrolizumab,ICB,True,0,,,
+Nivolumab,ICB,True,0,,,
+Atezolizumab,ICB,True,0,,,
+Fluorouracil,Chemo,True,15,-1.3375,S100A2,-1.5417
+Capecitabine,Chemo,True,15,-3.4929,S100A2,-4.2408
+Oxaliplatin,Chemo,True,0,,,
+Irinotecan,Chemo,True,0,,,
+Bevacizumab,Anti-VEGF,True,0,,,
+Cetuximab,Anti-EGFR,True,0,,,

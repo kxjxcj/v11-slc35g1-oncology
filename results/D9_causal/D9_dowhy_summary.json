@@ -1,0 +1,56 @@
+{
+  "n_cohorts": 4,
+  "n_total": 719,
+  "per_cohort_n": {
+    "GEO-GSE39582": 585,
+    "CPTAC-COAD": 96,
+    "TCGA-COAD": 19,
+    "TCGA-READ": 19
+  },
+  "anchor_genes_used": [
+    "SLC35G1",
+    "ST6GAL1",
+    "ST3GAL4",
+    "ST6GALNAC1",
+    "STAT1",
+    "CD274",
+    "CD8A",
+    "FOXP3",
+    "IFNG",
+    "CD44",
+    "MUC1",
+    "VIM",
+    "CDH1",
+    "CDH2",
+    "TP53",
+    "KRAS",
+    "BRAF",
+    "EGFR",
+    "MYC",
+    "CCND1",
+    "CDK4",
+    "CDK6",
+    "RB1"
+  ],
+  "overall_ate": {
+    "SLC35G1->os_event": {
+      "ate": -0.041416555136264466,
+      "ate_se": NaN,
+      "ate_p": NaN,
+      "n": 706,
+      "method": "backdoor.linear_regression"
+    },
+    "ST6GAL1->os_event": {
+      "ate": -0.1001863291436203,
+      "ate_se": NaN,
+      "ate_p": NaN,
+      "n": 706,
+      "method": "backdoor.linear_regression"
+    }
+  },
+  "honesty_markers": {
+    "HM-35": "Causal chain is observational, NOT randomized. All causal effect estimates carry unobserved-confounder bias.",
+    "HM-36": "DAG structure depends on literature-supported assumptions (Reactome R-HSA-4085001, T cell biology). Incomplete background knowledge.",
+    "HM-37": "CATE shows substantial variance across 4 cohorts (heterogeneity). Per-cohort estimates may not generalize."
+  }
+}

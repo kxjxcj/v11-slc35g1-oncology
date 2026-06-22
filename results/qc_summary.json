@@ -1,0 +1,47 @@
+{
+  "dixit_2016_raw": {
+    "name": "dixit_2016_raw",
+    "source": "figshare theislab sc-pert (34011689)",
+    "paper": "Dixit et al. Cell 2016 (Perturb-Seq)",
+    "cells_tissue": "BMDC (bone marrow dendritic cells)",
+    "perturbation_type": "CRISPR KO (24 TFs, mouse)",
+    "geo": "GSE90063",
+    "n_raw_cells": 104179,
+    "n_mito_genes": 0,
+    "n_processed_cells": 104179,
+    "n_processed_genes": 22537,
+    "n_doublet_predicted": -1,
+    "qc_pipeline": "min_genes=200, min_cells=3, mito<20%, scrublet<0.25",
+    "processed_path": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/50_paper_v11_D10_scGen/D10.1_data/dixit_2016_raw_processed.h5ad"
+  },
+  "dixit_2016_processed": {
+    "name": "dixit_2016_processed",
+    "source": "figshare theislab sc-pert (34014608)",
+    "paper": "Dixit et al. Cell 2016 (Perturb-Seq) - processed",
+    "cells_tissue": "BMDC (bone marrow dendritic cells)",
+    "perturbation_type": "CRISPR KO (24 TFs, mouse)",
+    "geo": "GSE90063",
+    "n_raw_cells": 99722,
+    "n_raw_genes": 18531,
+    "n_processed_cells": 99722,
+    "n_processed_genes": 18531,
+    "qc_pipeline": "pre-processed by theislab (log-normalized, mito filtered, scrublet)",
+    "processed_path": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/50_paper_v11_D10_scGen/D10.1_data/dixit_2016_processed_processed.h5ad",
+    "note": "Has perturbation_name, leiden clusters, n_genes, total_counts, pct_counts_mt pre-computed"
+  },
+  "norman_2019_processed": {
+    "name": "norman_2019_processed",
+    "source": "figshare theislab sc-pert (34027562)",
+    "paper": "Norman et al. Science 2019 (Perturb-seq gene pairs)",
+    "cells_tissue": "K562 (chronic myeloid leukemia)",
+    "perturbation_type": "CRISPRa overexpression (gene pairs, 287 perturbations)",
+    "geo": "GSE133344",
+    "n_raw_cells": 111255,
+    "n_raw_genes": 19018,
+    "n_processed_cells": 111255,
+    "n_processed_genes": 19018,
+    "qc_pipeline": "pre-processed by theislab (log-normalized, mito filtered, scrublet)",
+    "processed_path": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/50_paper_v11_D10_scGen/D10.1_data/norman_2019_processed_processed.h5ad",
+    "note": "Has perturbation_name, leiden clusters, QC metrics pre-computed"
+  }
+}

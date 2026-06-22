@@ -1,0 +1,55 @@
+{
+  "n_nodes": 37,
+  "n_edges": 123,
+  "layers": {
+    "protein": 0,
+    "mrna": 23,
+    "mutation": 5,
+    "covariate": 3,
+    "outcome": 4
+  },
+  "anchor_genes": [
+    "SLC35G1",
+    "ST6GAL1",
+    "ST3GAL4",
+    "ST6GALNAC1",
+    "STAT1",
+    "CD274",
+    "SLC35G1",
+    "ST6GAL1",
+    "ST3GAL4",
+    "ST6GALNAC1",
+    "STAT1",
+    "CD274",
+    "CD8A",
+    "FOXP3",
+    "IFNG",
+    "CD44",
+    "MUC1",
+    "VIM",
+    "CDH1",
+    "CDH2",
+    "TP53",
+    "KRAS",
+    "BRAF",
+    "EGFR",
+    "MYC",
+    "CCND1",
+    "CDK4",
+    "CDK6",
+    "RB1"
+  ],
+  "central_treatment_nodes": [
+    "SLC35G1",
+    "ST6GAL1",
+    "CD274"
+  ],
+  "data_sources": {
+    "protein": "CPTAC COAD 2019 TMT (n=110)",
+    "mrna": "TCGA PANCAN slim + GEO GSE39582 RNA-seq (n=635 + 566)",
+    "mutation": "TCGA MC3 (publicly available via GDC)",
+    "outcome": "TCGA clinical vital_status + GSE39582 os.event"
+  },
+  "honesty_marker": "HM-36: DAG structure depends on literature-supported assumptions; sialylation pathway edges sourced from Reactome R-HSA-4085001, STAT1-IFNG-CD8A axis from T cell biology literature",
+  "png_rendered": false
+}

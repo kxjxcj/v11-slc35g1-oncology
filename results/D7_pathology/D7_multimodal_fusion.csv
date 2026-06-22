@@ -1,0 +1,16 @@
+fusion,modality,auc_mean,auc_std,acc_mean,f1_mean,sensitivity_mean,specificity_mean
+CrossAttn,H&E,1.0,0.0,1.0,1.0,1.0,1.0
+CrossAttn,H&E+IHC+IF,1.0,0.0,1.0,1.0,1.0,1.0
+CrossAttn,H&E+IHC+IF+mol,1.0,0.0,1.0,1.0,1.0,1.0
+CrossAttn,H&E+IHC+IF+mol+clin,1.0,0.0,1.0,1.0,1.0,1.0
+CrossAttn,IF,0.6046,0.0462,0.7509,0.1964,0.1325,0.937
+CrossAttn,IHC,0.9849,0.0083,0.9481,0.8877,0.8895,0.9657
+CrossAttn,mol,0.9184,0.022,0.881,0.7334,0.7132,0.9314
+LateFusion-MLP,H&E,1.0,0.0,1.0,1.0,1.0,1.0
+LateFusion-MLP,H&E+IHC+IF,1.0,0.0,1.0,1.0,1.0,1.0
+LateFusion-MLP,H&E+IHC+IF+mol,1.0,0.0,1.0,1.0,1.0,1.0
+LateFusion-MLP,H&E+IHC+IF+mol+clin,1.0,0.0,1.0,1.0,1.0,1.0
+LateFusion-MLP,IF,0.5932,0.0305,0.7441,0.2454,0.184,0.9126
+LateFusion-MLP,IHC,0.9825,0.0118,0.9481,0.8838,0.8601,0.9746
+LateFusion-MLP,clin,0.524,0.0466,0.7806,0.1555,0.0883,0.9889
+LateFusion-MLP,mol,0.9234,0.0263,0.8852,0.743,0.7168,0.9358

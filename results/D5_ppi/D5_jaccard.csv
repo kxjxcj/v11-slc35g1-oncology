@@ -1,0 +1,4 @@
+platform_a,platform_b,edges_a,edges_b,intersection,union,jaccard_index
+STRING-physical,STRING-partners,388,1858,388,1858,0.2088
+STRING-physical,HuRI,388,1555,0,1943,0.0
+STRING-partners,HuRI,1858,1555,0,3413,0.0

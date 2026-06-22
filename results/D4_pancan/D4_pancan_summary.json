@@ -1,0 +1,14 @@
+{
+  "n_cancers_with_data": 33,
+  "n_cancers_with_clinical": 0,
+  "n_cancers_SLC35G1_significant_cox": 0,
+  "n_cancers_logrank_significant": 0,
+  "median_per_cancer_n_cases": 20,
+  "total_pancan_cases": 635,
+  "SLC35G1_global_median_log2TPM": 1.747,
+  "SLC35G1_global_IQR": 0.534,
+  "anchor_panel_median_rho_overall": 0.126,
+  "cross_cancer_W_mean": 0.5657940857650765,
+  "cross_cancer_W_median": 0.47288527404083214,
+  "cross_cancer_W_max": 2.1818590311032633
+}

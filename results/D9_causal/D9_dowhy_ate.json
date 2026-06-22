@@ -1,0 +1,16 @@
+{
+  "SLC35G1->os_event": {
+    "ate": -0.041416555136264466,
+    "ate_se": NaN,
+    "ate_p": NaN,
+    "n": 706,
+    "method": "backdoor.linear_regression"
+  },
+  "ST6GAL1->os_event": {
+    "ate": -0.1001863291436203,
+    "ate_se": NaN,
+    "ate_p": NaN,
+    "n": 706,
+    "method": "backdoor.linear_regression"
+  }
+}

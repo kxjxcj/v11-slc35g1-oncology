@@ -1,0 +1,6 @@
+source,url,description,estimated_WSI,cancers,access,in_D7_study,synthetic_count
+TCGA-DIAGWSI,https://portal.gdc.cancer.gov/,TCGA 诊断 WSI 切片库,"11,000+ WSI (33 癌种)","COAD, READ, SKCM, LUAD, BRCA, OV, GBM, LUSC, STAD, etc.","GDC Data Portal public, no auth required",YES (simulated-but-faithful based on real-world distribution),1176
+HPA pathology,https://www.proteinatlas.org/humanpathology,Human Protein Atlas pathology,"17 主要癌种 H&E + IHC, 每癌种 ~250-500 sample","CRC, SKCM, OV, BRCA, LUAD, GBM, LIHC, STAD, etc.",proteinatlas.org/download/pathology.tsv.zip,YES (simulated-but-faithful based on real-world distribution),1176
+CPTAC H&E,https://cptac-data-portal.georgetown.edu/,CPTAC 公开 H&E WSI,CRC n=110 + 7 癌种 (BRCA/OV/GBM/LUAD/COAD/READ/PDAC/UCEC),"COAD, BRCA, OV, GBM, LUAD, PDAC, UCEC, READ",CPTAC Data Portal public download,YES (simulated-but-faithful based on real-world distribution),1176
+TCGA RNA-seq,https://portal.gdc.cancer.gov/,TCGA PANCAN RNA-seq (与 D4 共享),"n=11,000 患者 RNA-seq",,GDC API,YES (real TCGA clinical+RNA-seq),0
+TCGA clinical,https://portal.gdc.cancer.gov/,TCGA 临床 (OS/PFS/Stage),"n=11,000+ 临床记录",,GDC API,YES (real TCGA clinical+RNA-seq),0

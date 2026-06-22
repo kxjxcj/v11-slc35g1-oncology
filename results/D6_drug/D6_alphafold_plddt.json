@@ -1,0 +1,77 @@
+{
+  "SLC35G1": {
+    "uniprot": "P78347",
+    "n_residues": 7919,
+    "mean_pLDDT": 69.39
+  },
+  "ST6GAL1": {
+    "uniprot": "P15907",
+    "n_residues": 3284,
+    "mean_pLDDT": 88.69
+  },
+  "CD8A": {
+    "uniprot": "P01732",
+    "n_residues": 1811,
+    "mean_pLDDT": 79.03
+  },
+  "S100A2": {
+    "uniprot": "P29034",
+    "n_residues": 775,
+    "mean_pLDDT": 87.46
+  },
+  "STAT1": {
+    "uniprot": "P42224",
+    "n_residues": 6148,
+    "mean_pLDDT": 87.78
+  },
+  "CD274": {
+    "uniprot": "Q9NZQ7",
+    "n_residues": 2339,
+    "mean_pLDDT": 88.13
+  },
+  "IL4I1": {
+    "uniprot": "Q96CZ9",
+    "n_residues": 6199,
+    "mean_pLDDT": 74.7
+  },
+  "ST3GAL4": {
+    "uniprot": "Q11206",
+    "n_residues": 2681,
+    "mean_pLDDT": 89.46
+  },
+  "ST6GALNAC1": {
+    "uniprot": "Q9H4F1",
+    "n_residues": 2399,
+    "mean_pLDDT": 89.56
+  },
+  "CD44": {
+    "uniprot": "P16070",
+    "n_residues": 5734,
+    "mean_pLDDT": 53.31
+  },
+  "MUC1": {
+    "uniprot": "P15941",
+    "n_residues": 8617,
+    "mean_pLDDT": 47.92
+  },
+  "LGALS3": {
+    "uniprot": "P17931",
+    "n_residues": 1854,
+    "mean_pLDDT": 76.49
+  },
+  "SIGLEC9": {
+    "uniprot": "Q9Y336",
+    "n_residues": 3522,
+    "mean_pLDDT": 74.1
+  },
+  "MLH1": {
+    "uniprot": "P40692",
+    "n_residues": 5947,
+    "mean_pLDDT": 77.89
+  },
+  "MSH2": {
+    "uniprot": "P43246",
+    "n_residues": 7356,
+    "mean_pLDDT": 85.6
+  }
+}

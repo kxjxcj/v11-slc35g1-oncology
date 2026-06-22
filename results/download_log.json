@@ -1,0 +1,24 @@
+{
+  "dixit_2016_raw": {
+    "name": "dixit_2016_raw",
+    "attempt": 1,
+    "status": "downloading",
+    "existing_mb": 0.0,
+    "total_mb": 2663.996772,
+    "downloaded_mb": 27.262976,
+    "speed_mbps": 0.41,
+    "pct": 1.0,
+    "elapsed_s": 67
+  },
+  "dixit_2016_processed": {
+    "name": "dixit_2016_processed",
+    "attempt": 1,
+    "status": "downloading",
+    "existing_mb": 0.0,
+    "total_mb": 1515.276836,
+    "downloaded_mb": 29.360128,
+    "speed_mbps": 0.48,
+    "pct": 1.9,
+    "elapsed_s": 61
+  }
+}

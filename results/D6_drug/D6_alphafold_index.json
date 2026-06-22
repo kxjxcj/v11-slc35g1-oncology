@@ -1,0 +1,92 @@
+{
+  "SLC35G1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78347-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P78347-F1.pdb",
+    "len": 651644,
+    "global_pLDDT": null
+  },
+  "ST6GAL1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15907-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P15907-F1.pdb",
+    "len": 272564,
+    "global_pLDDT": null
+  },
+  "CD8A": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P01732-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P01732-F1.pdb",
+    "len": 152198,
+    "global_pLDDT": null
+  },
+  "S100A2": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P29034-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P29034-F1.pdb",
+    "len": 67310,
+    "global_pLDDT": null
+  },
+  "STAT1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P42224-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P42224-F1.pdb",
+    "len": 506735,
+    "global_pLDDT": null
+  },
+  "CD274": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NZQ7-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-Q9NZQ7-F1.pdb",
+    "len": 195290,
+    "global_pLDDT": null
+  },
+  "IL4I1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96CZ9-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-Q96CZ9-F1.pdb",
+    "len": 511109,
+    "global_pLDDT": null
+  },
+  "ST3GAL4": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q11206-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-Q11206-F1.pdb",
+    "len": 223316,
+    "global_pLDDT": null
+  },
+  "ST6GALNAC1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H4F1-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-Q9H4F1-F1.pdb",
+    "len": 200393,
+    "global_pLDDT": null
+  },
+  "CD44": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P16070-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P16070-F1.pdb",
+    "len": 473039,
+    "global_pLDDT": null
+  },
+  "MUC1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15941-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P15941-F1.pdb",
+    "len": 709721,
+    "global_pLDDT": null
+  },
+  "LGALS3": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P17931-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P17931-F1.pdb",
+    "len": 155681,
+    "global_pLDDT": null
+  },
+  "SIGLEC9": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y336-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-Q9Y336-F1.pdb",
+    "len": 292166,
+    "global_pLDDT": null
+  },
+  "MLH1": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P40692-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P40692-F1.pdb",
+    "len": 490454,
+    "global_pLDDT": null
+  },
+  "MSH2": {
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P43246-F1-model_v6.pdb",
+    "file": "/Users/chen/.mavis/agents/mavis/workspace/genomics_exploration/17_v8_feature_driven/40_paper_v9_drug/raw/AF-P43246-F1.pdb",
+    "len": 605636,
+    "global_pLDDT": null
+  }
+}

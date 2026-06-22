@@ -1,0 +1,137 @@
+{
+  "total_terms_fdr_lt_0.01": 85,
+  "by_category": {
+    "Reactome": 13,
+    "GO:MF": 7,
+    "GO:BP": 39,
+    "KEGG": 5,
+    "GO:CC": 11,
+    "WikiPathways": 10
+  },
+  "top_5_overall": [
+    {
+      "category": "Reactome",
+      "term_id": "HSA-4085001",
+      "description": "Sialic acid metabolism",
+      "fdr": 1.2e-34,
+      "n_genes": 18,
+      "ratio": 0.5455,
+      "genes": "ST6GALNAC1,ST6GAL1,NANS,ST6GALNAC2,CMAS,NANP,ST6GALNAC3,ST6GALNAC4,SLC35A1,ST6GALNAC6,ST3GAL2,ST6GAL2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category": "GO:MF",
+      "term_id": "GO:0008373",
+      "description": "Sialyltransferase activity",
+      "fdr": 6.5e-27,
+      "n_genes": 14,
+      "ratio": 0.7,
+      "genes": "ST6GALNAC1,ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST6GALNAC6,ST3GAL2,ST6GAL2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category": "Reactome",
+      "term_id": "HSA-9683673",
+      "description": "Maturation of protein 3a",
+      "fdr": 1.18e-15,
+      "n_genes": 8,
+      "ratio": 0.8889,
+      "genes": "ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST3GAL2,ST3GAL1,ST3GAL4,ST3GAL3"
+    },
+    {
+      "category": "Reactome",
+      "term_id": "HSA-9694719",
+      "description": "Maturation of protein 3a",
+      "fdr": 1.18e-15,
+      "n_genes": 8,
+      "ratio": 0.8889,
+      "genes": "ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST3GAL2,ST3GAL1,ST3GAL4,ST3GAL3"
+    },
+    {
+      "category": "Reactome",
+      "term_id": "HSA-977068",
+      "description": "Termination of O-glycan biosynthesis",
+      "fdr": 2.8e-15,
+      "n_genes": 9,
+      "ratio": 0.36,
+      "genes": "ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST3GAL2,ST3GAL1,ST3GAL4,MUC1,ST3GAL3"
+    }
+  ],
+  "sialylation_pathway_terms": [
+    {
+      "category_class": "Reactome",
+      "term_id": "HSA-4085001",
+      "description": "Sialic acid metabolism",
+      "n_genes_in_set": 18,
+      "n_genes_in_background": 33,
+      "ratio": 0.5455,
+      "p_value": "5.25e-38",
+      "fdr": 1.2e-34,
+      "input_gene_symbols": "ST6GALNAC1,ST6GAL1,NANS,ST6GALNAC2,CMAS,NANP,ST6GALNAC3,ST6GALNAC4,SLC35A1,ST6GALNAC6,ST3GAL2,ST6GAL2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category_class": "GO:BP",
+      "term_id": "GO:0070085",
+      "description": "Glycosylation",
+      "n_genes_in_set": 15,
+      "n_genes_in_background": 239,
+      "ratio": 0.0628,
+      "p_value": "5.54e-19",
+      "fdr": 4.34e-15,
+      "input_gene_symbols": "ST6GALNAC1,ST6GAL1,NANS,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST6GALNAC6,ST3GAL2,ST6GAL2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category_class": "GO:BP",
+      "term_id": "GO:0006486",
+      "description": "Protein glycosylation",
+      "n_genes_in_set": 14,
+      "n_genes_in_background": 220,
+      "ratio": 0.0636,
+      "p_value": "8.5e-18",
+      "fdr": 4.44e-14,
+      "input_gene_symbols": "ST6GALNAC1,ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,ST6GALNAC6,ST3GAL2,ST6GAL2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category_class": "GO:CC",
+      "term_id": "GOCC:0005794",
+      "description": "Golgi apparatus",
+      "n_genes_in_set": 18,
+      "n_genes_in_background": 931,
+      "ratio": 0.0193,
+      "p_value": "3.86e-14",
+      "fdr": 8.87e-11,
+      "input_gene_symbols": "ST6GALNAC1,ST6GAL1,ST6GALNAC2,ST6GALNAC3,ST6GALNAC4,SLC35A1,ST6GALNAC6,ST3GAL2,ST6GAL2,CD44,SLC35A2,ST6GALNAC5,ST3GAL1,ST3GAL4,ST3GAL6,MUC1,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category_class": "GO:CC",
+      "term_id": "GOCC:0000139",
+      "description": "Golgi membrane",
+      "n_genes_in_set": 10,
+      "n_genes_in_background": 338,
+      "ratio": 0.0296,
+      "p_value": "1.03e-09",
+      "fdr": 7.9e-07,
+      "input_gene_symbols": "ST6GALNAC1,ST6GAL1,SLC35A1,ST3GAL2,ST6GAL2,SLC35A2,ST3GAL1,ST3GAL4,ST3GAL5,ST3GAL3"
+    },
+    {
+      "category_class": "Reactome",
+      "term_id": "HSA-1912420",
+      "description": "Pre-NOTCH Processing in Golgi",
+      "n_genes_in_set": 3,
+      "n_genes_in_background": 18,
+      "ratio": 0.1667,
+      "p_value": "9.25e-06",
+      "fdr": 0.00085,
+      "input_gene_symbols": "ST3GAL4,ST3GAL6,ST3GAL3"
+    },
+    {
+      "category_class": "GO:CC",
+      "term_id": "GOCC:0032580",
+      "description": "Golgi cisterna membrane",
+      "n_genes_in_set": 3,
+      "n_genes_in_background": 27,
+      "ratio": 0.1111,
+      "p_value": "2.79e-05",
+      "fdr": 0.0071,
+      "input_gene_symbols": "ST3GAL1,ST3GAL4,ST3GAL3"
+    }
+  ]
+}

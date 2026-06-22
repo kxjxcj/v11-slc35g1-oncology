@@ -1,0 +1,56 @@
+{
+  "string_physical_total_edges": 1477610,
+  "string_physical_hiconf_target_edges": 776,
+  "string_partners_target_edges": 1858,
+  "huri_binary_interactome_edges": 52068,
+  "sub_physical_nodes": 309,
+  "sub_physical_edges": 388,
+  "sub_partners_nodes": 1080,
+  "sub_partners_edges": 1858,
+  "sub_huri_nodes": 240,
+  "sub_huri_edges": 1555,
+  "louvain_modules": 16,
+  "louvain_modularity": 0.7472,
+  "leiden_modules": 16,
+  "leiden_modularity": 0.7472,
+  "sialylation_module_size_louvain": 2,
+  "sialylation_module_size_leiden": 2,
+  "sial_module_louvain_id": 3,
+  "sial_module_leiden_id": 13,
+  "jaccard_stringphys_stringpartners": 0.2088,
+  "jaccard_stringphys_huri": 0.0,
+  "jaccard_stringpartners_huri": 0.0,
+  "anchors_total": 18,
+  "sialylation_genes_total": 21,
+  "all_genes_total": 39,
+  "alphafold_wt_iptm": 0.72,
+  "alphafold_mutant_ipTM_min": 0.42,
+  "alphafold_mutant_delta_g_max": 31.2,
+  "centrality_top_anchors": [
+    [
+      "CD44",
+      88,
+      0.5584806886644259
+    ],
+    [
+      "CDH2",
+      43,
+      0.162048953018663
+    ],
+    [
+      "STAT1",
+      43,
+      0.22013947887514426
+    ],
+    [
+      "CXCL11",
+      35,
+      0.07494025739446052
+    ],
+    [
+      "CXCL10",
+      34,
+      0.09700304178928419
+    ]
+  ]
+}

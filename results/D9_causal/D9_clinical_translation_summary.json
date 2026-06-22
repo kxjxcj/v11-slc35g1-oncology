@@ -1,0 +1,31 @@
+{
+  "n_cohorts": 4,
+  "decision_summary": {
+    "CPTAC-COAD": {
+      "n": 96,
+      "cate_mean": -0.1613690077192509,
+      "cf_direction": "protective_KO",
+      "decision": "SLC35G1 KO candidate drug target (P-3Fax-Neu5Ac)"
+    },
+    "TCGA-COAD": {
+      "n": 19,
+      "cate_mean": null,
+      "cf_direction": "no_cf",
+      "decision": "No counterfactual data (cohort too small)"
+    },
+    "TCGA-READ": {
+      "n": 19,
+      "cate_mean": null,
+      "cf_direction": "no_cf",
+      "decision": "No counterfactual data (cohort too small)"
+    },
+    "GEO-GSE39582": {
+      "n": 585,
+      "cate_mean": -0.1288164535372079,
+      "cf_direction": "protective_KO",
+      "decision": "SLC35G1 KO candidate drug target (P-3Fax-Neu5Ac)"
+    }
+  },
+  "drug_integration": "v9 D6 4-drug panel: P-3Fax-Neu5Ac peracetylated, Abemaciclib, Palbociclib, Pembrolizumab",
+  "honesty_marker": "HM-37: cohort heterogeneity in CATE means treatment recommendation may differ by cohort. Clinical translation must be validated in prospective trials before deployment."
+}

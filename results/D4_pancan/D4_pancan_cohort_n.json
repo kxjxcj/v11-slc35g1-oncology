@@ -1,0 +1,460 @@
+{
+  "TCGA-ACC": {
+    "primary_site": [
+      "Adrenal gland"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 79,
+    "n_clinical": 92
+  },
+  "TCGA-BLCA": {
+    "primary_site": [
+      "Bladder"
+    ],
+    "disease_type": [
+      "Epithelial Neoplasms, NOS",
+      "Squamous Cell Neoplasms",
+      "Transitional Cell Papillomas and Carcinomas",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 406,
+    "n_clinical": 412
+  },
+  "TCGA-BRCA": {
+    "primary_site": [
+      "Breast"
+    ],
+    "disease_type": [
+      "Adnexal and Skin Appendage Neoplasms",
+      "Adenomas and Adenocarcinomas",
+      "Ductal and Lobular Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Complex Epithelial Neoplasms",
+      "Fibroepithelial Neoplasms",
+      "Squamous Cell Neoplasms",
+      "Epithelial Neoplasms, NOS",
+      "Basal Cell Neoplasms"
+    ],
+    "n_rna_seq": 1095,
+    "n_clinical": 1098
+  },
+  "TCGA-CESC": {
+    "primary_site": [
+      "Cervix uteri",
+      "Ovary"
+    ],
+    "disease_type": [
+      "Squamous Cell Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Complex Epithelial Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 304,
+    "n_clinical": 307
+  },
+  "TCGA-CHOL": {
+    "primary_site": [
+      "Liver and intrahepatic bile ducts",
+      "Other and unspecified parts of biliary tract",
+      "Pancreas"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 36,
+    "n_clinical": 51
+  },
+  "TCGA-COAD": {
+    "primary_site": [
+      "Colon",
+      "Rectosigmoid junction"
+    ],
+    "disease_type": [
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Complex Epithelial Neoplasms",
+      "Epithelial Neoplasms, NOS",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 458,
+    "n_clinical": 461
+  },
+  "TCGA-DLBC": {
+    "primary_site": [
+      "Colon",
+      "Retroperitoneum and peritoneum",
+      "Heart, mediastinum, and pleura",
+      "Breast",
+      "Bones, joints and articular cartilage of other and unspecified sites",
+      "Lymph nodes",
+      "Small intestine",
+      "Stomach",
+      "Testis",
+      "Brain",
+      "Connective, subcutaneous and other soft tissues",
+      "Thyroid gland",
+      "Hematopoietic and reticuloendothelial systems",
+      "Other and unspecified major salivary glands"
+    ],
+    "disease_type": [
+      "Mature B-Cell Lymphomas",
+      "Not Reported"
+    ],
+    "n_rna_seq": 48,
+    "n_clinical": 58
+  },
+  "TCGA-ESCA": {
+    "primary_site": [
+      "Esophagus",
+      "Stomach"
+    ],
+    "disease_type": [
+      "Squamous Cell Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 184,
+    "n_clinical": 185
+  },
+  "TCGA-GBM": {
+    "primary_site": [
+      "Brain"
+    ],
+    "disease_type": [
+      "Not Reported",
+      "Gliomas"
+    ],
+    "n_rna_seq": 293,
+    "n_clinical": 617
+  },
+  "TCGA-HNSC": {
+    "primary_site": [
+      "Lip",
+      "Tonsil",
+      "Gum",
+      "Bones, joints and articular cartilage of other and unspecified sites",
+      "Palate",
+      "Other and unspecified parts of tongue",
+      "Floor of mouth",
+      "Other and ill-defined sites in lip, oral cavity and pharynx",
+      "Larynx",
+      "Base of tongue",
+      "Other and unspecified parts of mouth",
+      "Oropharynx",
+      "Hypopharynx"
+    ],
+    "disease_type": [
+      "Squamous Cell Neoplasms"
+    ],
+    "n_rna_seq": 521,
+    "n_clinical": 528
+  },
+  "TCGA-KICH": {
+    "primary_site": [
+      "Kidney"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 66,
+    "n_clinical": 113
+  },
+  "TCGA-KIRC": {
+    "primary_site": [
+      "Kidney"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 533,
+    "n_clinical": 537
+  },
+  "TCGA-KIRP": {
+    "primary_site": [
+      "Kidney"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 290,
+    "n_clinical": 291
+  },
+  "TCGA-LAML": {
+    "primary_site": [
+      "Hematopoietic and reticuloendothelial systems"
+    ],
+    "disease_type": [
+      "Myeloid Leukemias"
+    ],
+    "n_rna_seq": 151,
+    "n_clinical": 200
+  },
+  "TCGA-LGG": {
+    "primary_site": [
+      "Brain"
+    ],
+    "disease_type": [
+      "Gliomas"
+    ],
+    "n_rna_seq": 516,
+    "n_clinical": 516
+  },
+  "TCGA-LIHC": {
+    "primary_site": [
+      "Liver and intrahepatic bile ducts"
+    ],
+    "disease_type": [
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 371,
+    "n_clinical": 377
+  },
+  "TCGA-LUAD": {
+    "primary_site": [
+      "Bronchus and lung"
+    ],
+    "disease_type": [
+      "Ductal and Lobular Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Acinar Cell Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 518,
+    "n_clinical": 585
+  },
+  "TCGA-LUSC": {
+    "primary_site": [
+      "Bronchus and lung"
+    ],
+    "disease_type": [
+      "Squamous Cell Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 501,
+    "n_clinical": 504
+  },
+  "TCGA-MESO": {
+    "primary_site": [
+      "Bronchus and lung",
+      "Heart, mediastinum, and pleura"
+    ],
+    "disease_type": [
+      "Mesothelial Neoplasms"
+    ],
+    "n_rna_seq": 87,
+    "n_clinical": 87
+  },
+  "TCGA-OV": {
+    "primary_site": [
+      "Retroperitoneum and peritoneum",
+      "Ovary"
+    ],
+    "disease_type": [
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Not Reported"
+    ],
+    "n_rna_seq": 427,
+    "n_clinical": 608
+  },
+  "TCGA-PAAD": {
+    "primary_site": [
+      "Pancreas"
+    ],
+    "disease_type": [
+      "Ductal and Lobular Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Epithelial Neoplasms, NOS",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 178,
+    "n_clinical": 185
+  },
+  "TCGA-PCPG": {
+    "primary_site": [
+      "Adrenal gland",
+      "Retroperitoneum and peritoneum",
+      "Other endocrine glands and related structures",
+      "Other and ill-defined sites",
+      "Connective, subcutaneous and other soft tissues",
+      "Spinal cord, cranial nerves, and other parts of central nervous system",
+      "Heart, mediastinum, and pleura"
+    ],
+    "disease_type": [
+      "Paragangliomas and Glomus Tumors"
+    ],
+    "n_rna_seq": 179,
+    "n_clinical": 179
+  },
+  "TCGA-PRAD": {
+    "primary_site": [
+      "Prostate gland"
+    ],
+    "disease_type": [
+      "Ductal and Lobular Neoplasms",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Acinar Cell Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 497,
+    "n_clinical": 500
+  },
+  "TCGA-READ": {
+    "primary_site": [
+      "Colon",
+      "Rectosigmoid junction",
+      "Rectum",
+      "Connective, subcutaneous and other soft tissues",
+      "Unknown"
+    ],
+    "disease_type": [
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 167,
+    "n_clinical": 172
+  },
+  "TCGA-SARC": {
+    "primary_site": [
+      "Retroperitoneum and peritoneum",
+      "Colon",
+      "Other and unspecified male genital organs",
+      "Bones, joints and articular cartilage of limbs",
+      "Meninges",
+      "Stomach",
+      "Other and unspecified parts of tongue",
+      "Connective, subcutaneous and other soft tissues",
+      "Uterus, NOS",
+      "Kidney",
+      "Peripheral nerves and autonomic nervous system",
+      "Ovary",
+      "Corpus uteri"
+    ],
+    "disease_type": [
+      "Fibromatous Neoplasms",
+      "Myomatous Neoplasms",
+      "Nerve Sheath Tumors",
+      "Synovial-like Neoplasms",
+      "Soft Tissue Tumors and Sarcomas, NOS",
+      "Lipomatous Neoplasms"
+    ],
+    "n_rna_seq": 259,
+    "n_clinical": 261
+  },
+  "TCGA-SKCM": {
+    "primary_site": [
+      "Colon",
+      "Spinal cord, cranial nerves, and other parts of central nervous system",
+      "Vulva",
+      "Skin",
+      "Vagina",
+      "Bones, joints and articular cartilage of other and unspecified sites",
+      "Small intestine",
+      "Connective, subcutaneous and other soft tissues",
+      "Nasal cavity and middle ear",
+      "Anus and anal canal",
+      "Liver and intrahepatic bile ducts",
+      "Bronchus and lung",
+      "Other and ill-defined sites",
+      "Adrenal gland",
+      "Corpus uteri",
+      "Parotid gland",
+      "Retroperitoneum and peritoneum",
+      "Breast",
+      "Lymph nodes",
+      "Brain"
+    ],
+    "disease_type": [
+      "Nevi and Melanomas"
+    ],
+    "n_rna_seq": 469,
+    "n_clinical": 470
+  },
+  "TCGA-STAD": {
+    "primary_site": [
+      "Stomach"
+    ],
+    "disease_type": [
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 415,
+    "n_clinical": 443
+  },
+  "TCGA-TGCT": {
+    "primary_site": [
+      "Testis"
+    ],
+    "disease_type": [
+      "Germ Cell Neoplasms"
+    ],
+    "n_rna_seq": 150,
+    "n_clinical": 263
+  },
+  "TCGA-THCA": {
+    "primary_site": [
+      "Thyroid gland"
+    ],
+    "disease_type": [
+      "Squamous Cell Neoplasms",
+      "Epithelial Neoplasms, NOS",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 505,
+    "n_clinical": 507
+  },
+  "TCGA-THYM": {
+    "primary_site": [
+      "Thymus",
+      "Other and ill-defined sites",
+      "Heart, mediastinum, and pleura"
+    ],
+    "disease_type": [
+      "Thymic Epithelial Neoplasms"
+    ],
+    "n_rna_seq": 120,
+    "n_clinical": 124
+  },
+  "TCGA-UCEC": {
+    "primary_site": [
+      "Uterus, NOS",
+      "Corpus uteri"
+    ],
+    "disease_type": [
+      "Not Reported",
+      "Cystic, Mucinous and Serous Neoplasms",
+      "Epithelial Neoplasms, NOS",
+      "Adenomas and Adenocarcinomas"
+    ],
+    "n_rna_seq": 557,
+    "n_clinical": 560
+  },
+  "TCGA-UCS": {
+    "primary_site": [
+      "Uterus, NOS",
+      "Corpus uteri"
+    ],
+    "disease_type": [
+      "Basal Cell Neoplasms",
+      "Complex Mixed and Stromal Neoplasms"
+    ],
+    "n_rna_seq": 57,
+    "n_clinical": 57
+  },
+  "TCGA-UVM": {
+    "primary_site": [
+      "Eye and adnexa"
+    ],
+    "disease_type": [
+      "Paragangliomas and Glomus Tumors",
+      "Nevi and Melanomas"
+    ],
+    "n_rna_seq": 80,
+    "n_clinical": 80
+  },
+  "_totals": {
+    "total_rna": 10517,
+    "total_clinical": 11428,
+    "n_cancers": 33
+  }
+}

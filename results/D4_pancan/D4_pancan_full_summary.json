@@ -1,0 +1,167 @@
+{
+  "TCGA-ACC": {
+    "n_cases": 20,
+    "status": "OK (new 0, skip 20, err 0)",
+    "elapsed_s": 1.5
+  },
+  "TCGA-BLCA": {
+    "n_cases": 23,
+    "status": "OK (new 0, skip 20, err 0)",
+    "elapsed_s": 1.6
+  },
+  "TCGA-BRCA": {
+    "n_cases": 23,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 102.7
+  },
+  "TCGA-CESC": {
+    "n_cases": 23,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 98.6
+  },
+  "TCGA-CHOL": {
+    "n_cases": 15,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 100.0
+  },
+  "TCGA-COAD": {
+    "n_cases": 22,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 105.8
+  },
+  "TCGA-DLBC": {
+    "n_cases": 20,
+    "status": "OK (new 17, skip 3, err 0)",
+    "elapsed_s": 83.4
+  },
+  "TCGA-ESCA": {
+    "n_cases": 23,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 102.1
+  },
+  "TCGA-GBM": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 90.2
+  },
+  "TCGA-HNSC": {
+    "n_cases": 18,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 92.4
+  },
+  "TCGA-KICH": {
+    "n_cases": 18,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 100.3
+  },
+  "TCGA-KIRC": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 97.4
+  },
+  "TCGA-KIRP": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 98.7
+  },
+  "TCGA-LAML": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 91.2
+  },
+  "TCGA-LGG": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 92.2
+  },
+  "TCGA-LIHC": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 91.0
+  },
+  "TCGA-LUAD": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 92.1
+  },
+  "TCGA-LUSC": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 93.1
+  },
+  "TCGA-MESO": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 101.4
+  },
+  "TCGA-OV": {
+    "n_cases": 18,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 96.5
+  },
+  "TCGA-PAAD": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 93.6
+  },
+  "TCGA-PCPG": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 96.4
+  },
+  "TCGA-PRAD": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 93.1
+  },
+  "TCGA-READ": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 94.4
+  },
+  "TCGA-SARC": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 97.6
+  },
+  "TCGA-SKCM": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 93.1
+  },
+  "TCGA-STAD": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 91.1
+  },
+  "TCGA-TGCT": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 97.9
+  },
+  "TCGA-THCA": {
+    "n_cases": 18,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 99.2
+  },
+  "TCGA-THYM": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 88.8
+  },
+  "TCGA-UCEC": {
+    "n_cases": 19,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 92.1
+  },
+  "TCGA-UCS": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 94.3
+  },
+  "TCGA-UVM": {
+    "n_cases": 20,
+    "status": "OK (new 20, skip 0, err 0)",
+    "elapsed_s": 93.4
+  }
+}
