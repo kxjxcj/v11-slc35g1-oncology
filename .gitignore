@@ -1,0 +1,77 @@
+# .gitignore for SLC35G1 v11 reproducibility package
+#
+# Large data files are mirrored on Zenodo, not Git
+*.h5ad
+*.h5
+*.pdb
+*.fastq
+*.fastq.gz
+*.bam
+*.vcf
+*.bw
+*.bigwig
+*.bed
+*.gz
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local data scratch
+data/pdb/
+data/*.h5ad
+data/zenodo_cache/
+
+# Zenodo staging
+v11_data_bundle.zip
+*.zip
+
+# Docker
+docker/.dockerignore.bak
+
+# Snakemake
+.snakemake/
+workflow/.snakemake/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local credentials
+.env
+*.token
+*.secret
+credentials.json
+
+# Large figures
+figures/full/
+figures/raw/
