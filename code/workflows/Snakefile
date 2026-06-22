@@ -1,0 +1,187 @@
+# Snakemake workflow — SLC35G1 v11 reproducibility
+#
+# This file declares the dependency graph for the full D4–D11 pipeline.
+# Each rule is a single Python script under code/src/ or a notebook under
+# notebooks/.  Most rules are already executed by the cached results/ data
+# shipped with the package; running `snakemake --cores 8` from this directory
+# regenerates every result from scratch.
+#
+# To skip re-execution of a rule whose output already exists, run:
+#   snakemake --cores 8 --notemp
+#
+# To force re-execution:
+#   snakemake --cores 8 --forceall
+
+from pathlib import Path
+
+RESULTS = Path("../results")
+NOTEBOOKS = Path("../notebooks")
+
+
+rule all:
+    input:
+        # Tier-1 outputs that everything else depends on
+        RESULTS / "D4_pancan" / "D4_pancan_summary.json",
+        RESULTS / "D5_ppi" / "D5_summary.json",
+        RESULTS / "D6_drug" / "D6_drug_panel.json",
+        RESULTS / "D7_pathology" / "D7_key_numbers.json",
+        RESULTS / "D8_vko" / "D8_depmap_results.csv",
+        RESULTS / "D9_causal" / "D9_dowhy_ate.json",
+        RESULTS / "sensitivity_table.csv",
+
+
+rule D4_pancan:
+    """33-cancer pan-cancer SLC35G1 distribution (from v9 D4.1-D4.7)."""
+    input:
+        "../notebooks/03_D4_pancan.ipynb",
+        RESULTS / "D4_pancan" / "D4_pancan_results.csv",
+    output:
+        RESULTS / "D4_pancan" / "D4_pancan_summary.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=180 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule D5_ppi:
+    """PPI network integration STRING + HuRI + AlphaFold (from v9 D5)."""
+    input:
+        "../notebooks/04_D5_ppi.ipynb",
+    output:
+        RESULTS / "D5_ppi" / "D5_summary.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=180 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule D6_drug:
+    """17-drug × 19-AlphaFold Vina-proxy docking (from v9 D6)."""
+    input:
+        "../notebooks/05_D6_drug.ipynb",
+    output:
+        RESULTS / "D6_drug" / "D6_drug_panel.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=600 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule D7_pathology:
+    """6-cohort late-fusion MLP pathology AI (from v9 D7)."""
+    input:
+        "../notebooks/06_D7_pathology_ai.ipynb",
+    output:
+        RESULTS / "D7_pathology" / "D7_key_numbers.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=600 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule D8_vko:
+    """6-database virtual knockout across 27 genes (from v10 D8)."""
+    input:
+        "../notebooks/07_D8_vko.ipynb",
+    output:
+        RESULTS / "D8_vko" / "D8_depmap_results.csv",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=180 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule D9_causal:
+    """4-cohort multi-omics causal chain (from v10 D9)."""
+    input:
+        "../notebooks/08_D9_causal.ipynb",
+    output:
+        RESULTS / "D9_causal" / "D9_dowhy_ate.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=180 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule sensitivity:
+    """Aggregates the 7 v10 final sensitivity disclosures."""
+    input:
+        "../notebooks/09_sensitivity_analysis.ipynb",
+    output:
+        RESULTS / "sensitivity_table.csv",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=120 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        """
+
+
+rule figures:
+    """Re-renders all 81 PNG figures from cached results."""
+    input:
+        "../notebooks/10_reproduce_main_figures.ipynb",
+    output:
+        "../figures/main/fig81.png",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=180 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        python ../code/workflows/render_remaining_figures.py \
+            --out-dir ../figures/main
+        """
+
+
+rule D10_scGen:
+    """v11 D10 — single-cell perturbation (5 datasets; from 50_paper_v11_D10_scGen)."""
+    input:
+        "../notebooks/01_data_download.ipynb",
+        "../notebooks/02_qc_and_preprocess.ipynb",
+    output:
+        RESULTS / "qc_summary.json",
+    shell:
+        """
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=3600 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[0]}
+        jupyter nbconvert --to notebook --execute --inplace \
+            --ExecutePreprocessor.timeout=1800 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            {input[1]}
+        """
+
+
+rule D11_md:
+    """v11 D11 — molecular dynamics GROMACS 100 ns × 27 AlphaFold proteins."""
+    input:
+        "../code/src/build_gromacs_systems.py",
+        "../code/src/download_alphafold_v6.py",
+    output:
+        "../data/pdb/SLC35G1_Q2M3R5.pdb",
+    shell:
+        """
+        python {input[1]} --out-dir ../data/pdb --skip-if-exists
+        python {input[0]} --pdb-dir ../data/pdb --out-dir ../results/D11_md
+        """
