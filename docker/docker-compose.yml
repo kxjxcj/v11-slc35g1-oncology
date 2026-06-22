@@ -1,0 +1,69 @@
+version: "3.9"
+
+# docker-compose for the SLC35G1 v11 reproducibility package.
+#
+# Usage:
+#   docker compose up jupyter          # Jupyter Lab on :8888
+#   docker compose up jupyter-gpu      # Jupyter with CUDA for GROMACS D11 MD
+#   docker compose --profile full run  # full pipeline (D4–D11) on the host
+#
+# Volumes:
+#   - ./code is read-only inside the container
+#   - ./data and ./results are read-write so completed runs persist on the host
+#   - ./notebooks is read-write so users can save their work back to the host
+
+services:
+  jupyter:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: chen/slc35g1-oncology:v1.0
+    container_name: slc35g1_jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../code:/home/jovyan/code:ro
+      - ../notebooks:/home/jovyan/notebooks:rw
+      - ../results:/home/jovyan/results:rw
+      - ../data:/home/jovyan/data:rw
+      - ../figures:/home/jovyan/figures:rw
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8888/lab"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  jupyter-gpu:
+    extends:
+      service: jupyter
+    container_name: slc35g1_jupyter_gpu
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - JUPYTER_ENABLE_LAB=yes
+    ports:
+      - "8889:8888"
+    profiles: ["gpu"]
+
+  pipeline:
+    extends:
+      service: jupyter
+    container_name: slc35g1_pipeline
+    command: >
+      bash -lc "cd /home/jovyan/code/workflows &&
+                snakemake --cores 8 --use-conda --printshellcmds"
+    profiles: ["full"]
+    restart: "no"
+
+  zenodo-upload:
+    image: curlimages/curl:8.5.0
+    container_name: slc35g1_zenodo_upload
+    volumes:
+      - ../:/workspace:ro
+    entrypoint: ["sh", "-c"]
+    command: ["echo 'Set ZENODO_TOKEN and run: curl -H \"$$ZENODO_TOKEN\" -F file=@/workspace/data_bundle.zip https://zenodo.org/api/deposit/depositions'"]
+    profiles: ["zenodo"]
