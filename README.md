@@ -20,6 +20,34 @@ docker run --rm -p 8888:8888 ghcr.io/chen/slc35g1-oncology:v1.0
 
 Open `http://localhost:8888` in your browser, no password required.
 
+## Option C — GitHub Codespaces (no local install, browser only)
+
+> **Recommended for reviewers**: zero setup. Click the button, wait ~90s, browser opens Jupyter.
+
+1. Go to <https://github.com/kxjxcj/v11-slc35g1-oncology>
+2. Click **Code → Codespaces → Create codespace on main**
+3. Pick **4-core / 16 GB RAM** machine type (free tier: 60 h/month)
+4. Wait ~90s for `.devcontainer/postCreate.sh` to install minimal stack
+5. Jupyter Lab auto-opens on port 8888
+
+The minimal Codespaces stack (numpy / pandas / sklearn / lifelines / matplotlib) is enough
+to:
+
+- Visualise every figure under `figures/` and verify they render
+- Re-load every cached `results/**/*.json` and `results/**/*.csv` truth value
+- Re-run the smoke notebooks `00_environment_check.ipynb` and `09_sensitivity_analysis.ipynb`
+
+For the heavy pipeline (D4–D11, ~8 h, needs scvi-tools / openmm / geopandas) use the Docker
+image (Option A) or run `bash docker/install_full_stack.sh` inside the Codespace.
+
+### Codespaces troubleshooting
+
+- **postCreate fails on `pip install`**: rerun with `bash .devcontainer/postCreate.sh` (deps
+  sometimes hit a transient PyPI 503)
+- **Out of disk on 32 GB**: clean with `docker system prune -af && conda clean -ay` (shouldn't
+  happen on default 32 GB Codespace)
+- **Port 8888 not forwarded**: VS Code → Ports tab → 8888 → "Open in Browser"
+
 ## What does this contain?
 
 ```

@@ -1,0 +1,48 @@
+{
+  "name": "SLC35G1 v11 Reproducibility",
+  "image": "mcr.microsoft.com/devcontainers/miniconda:1.1-3",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "installOhMyZsh": false,
+      "upgradePackages": false
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "redhat.vscode-yaml"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python",
+        "python.analysis.autoSearchPaths": false,
+        "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+        "terminal.integrated.cwd": "${workspaceFolder}"
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "notebooks/00_environment_check.ipynb",
+        "REPRODUCE.md"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "remoteUser": "vscode",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  },
+  "forwardPorts": [8888],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter Lab",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

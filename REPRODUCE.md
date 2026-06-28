@@ -55,7 +55,23 @@ The `environment.yml` is the same set of packages installed in the Docker image.
 
 ---
 
-## Option C — Pull data from Zenodo and run locally
+## Option C — GitHub Codespaces (browser-only, no install)
+
+> Best for reviewers: zero local install. Free tier: 60 h/month, 4-core / 16 GB machine.
+
+1. Open <https://github.com/kxjxcj/v11-slc35g1-oncology>
+2. Click **Code → Codespaces → Create codespace on main** (pick 4-core, 16 GB)
+3. Wait ~90 s while `.devcontainer/postCreate.sh` installs the minimal stack
+4. Jupyter Lab auto-opens on port 8888 in your browser
+5. Run `notebooks/00_environment_check.ipynb` to verify the environment
+
+The Codespaces minimal stack is enough to inspect every figure, every JSON/CSV in
+`results/`, and re-run the smoke notebooks. For the full 8 h D4–D11 pipeline, run
+`bash docker/install_full_stack.sh` inside the Codespace.
+
+---
+
+## Option D — Pull data from Zenodo and run locally
 
 The large data files (3 h5ad ~5.5 GB, 27 PDB ~1.1 GB, all intermediate results ~50 MB)
 are mirrored on Zenodo for archival. To pull them all and run from scratch:
